@@ -1,4 +1,4 @@
-def roll_call_dwarves(array)
+def roll_call_dwarves(dwarfs)
   
 end
 
