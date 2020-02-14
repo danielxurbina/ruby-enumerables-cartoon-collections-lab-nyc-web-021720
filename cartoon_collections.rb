@@ -12,8 +12,8 @@ end
 
 def long_planeteer_calls(long_planeteer_calls)
   results = false
-  long_planeteer_calls.each do |x|
-    if x.length > 4
+  long_planeteer_calls.each do |result|
+    if result.length > 4
       results = true
     end
   end
