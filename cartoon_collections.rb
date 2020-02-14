@@ -5,19 +5,19 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.collect do |call|
-    call.capitalize + "!"
+  veggies.collect do |result|
+    result.capitalize + "!"
   end
 end
 
 def long_planeteer_calls(long_planeteer_calls)
-  answer = false
-  long_planeteer_calls.each do |call|
-    if call.length > 4
-      answer = true
+  results = false
+  long_planeteer_calls.each do |x|
+    if x.length > 4
+      results = true
     end
   end
-  answer 
+  results 
 end
 
 def find_the_cheese(cheese)
