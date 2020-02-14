@@ -12,7 +12,8 @@ end
 
 def long_planeteer_calls(long_planeteer_calls)
   answer = false
-  long_planeteer_calls.each
+  long_planeteer_calls.each do |call|
+    
 end
 
 def find_the_cheese()
